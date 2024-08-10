@@ -13,6 +13,7 @@ nav .title {
     font-size: 30px; 
     color: white;
     margin: 1rem; 
+    padding-left: 1rem;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -20,6 +21,7 @@ nav .title {
 
 nav ul {
     display: flex;
+    padding-right: 1rem;
 }
 
 nav ul li {
@@ -67,7 +69,7 @@ nav .menu span {
     border-radius: 0.2rem; 
 }
 
-@media (max-width: 480px){
+@media (max-width: 550px){
     nav .menu {
         display: flex;
     }

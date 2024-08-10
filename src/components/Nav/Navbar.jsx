@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className='navbar'>
-      <div className='logo'>
-        <Link to="/" className='logo-link'>Artist Quest</Link>
-      </div>
-      <ul className='nav-menu'>
-        <li><Link to="/quiz">take our quiz</Link></li>
-        <li><Link to="/hiphop">hip hop</Link></li>
-        <li><Link to="/folk">folk</Link></li>
-        <li><Link to="/country">country</Link></li>
-        <li><Link to="/rb">r & b</Link></li>
-        <li><Link to="/about">about me</Link></li>
+    <nav>
+        <Link to="/" className='title'>Artist Quest</Link>
+      <ul >
+        <li><NavLink to="/quiz">take our quiz</NavLink></li>
+        <li><NavLink to="/hiphop">hip hop</NavLink></li>
+        <li><NavLink to="/folk">folk</NavLink></li>
+        <li><NavLink to="/country">country</NavLink></li>
+        <li><NavLink to="/rb">r & b</NavLink></li>
+        <li><NavLink to="/about">about me</NavLink></li>
       </ul>
     </nav>
   );

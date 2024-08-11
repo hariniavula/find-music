@@ -69,7 +69,7 @@ nav .menu span {
     border-radius: 0.2rem; 
 }
 
-@media (max-width: 550px){
+@media (max-width: 600px){
     nav .menu {
         display: flex;
     }
@@ -82,8 +82,14 @@ nav .menu span {
     nav ul {
         display: none;
         flex-direction: column;
-        width: 100%; 
-        margin-bottom: 0.25rem;
+        position: absolute;
+        top: 4.75rem; /* Positioning it below the title */
+        right: 0.0rem; /* Positioning it on the right */
+        width: 10rem;
+        height: 40vh; /* Smaller rectangle width */
+        background-color: black;
+        padding: 0.5rem; /* Padding inside the rectangle */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     nav ul.open {

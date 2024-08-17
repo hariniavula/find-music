@@ -1,5 +1,7 @@
 import React from 'react';
 import './Folk.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpotify, faYoutube, faApple } from '@fortawesome/free-brands-svg-icons';
 
 const Button = ({ link, children }) => {
     const handleClick = () => {
@@ -26,23 +28,55 @@ const Folk = () => {
                 <div className="song">
                     <h1>Song Name</h1>
                     <img src="/src/assets/our-eyes.jpeg" alt="our-eyes-img" className="about-image" />
-                    <p>Artist Name - Song Description</p>
+                    <br/>
+                    <h4>Artist Name</h4>
+                    <div className="social-links">
+                        <a href="https://spotify.com" className = "spotify" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faSpotify} size="2x" />
+                        </a>
+                        <a href="https://music.apple.com" className = "apple" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faApple} size="2x" />
+                        </a>
+                        <a href="https://youtube.com" className = "youtube" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                        </a>
+                    </div>    
                 </div>
                 <div className="song">
                     <h1>Song Name</h1>
-                    <img src="/src/assets/another-image.jpeg" alt="another-img" className="about-image" />
-                    <p>Artist Name - Song Description</p>
+                    <img src="/src/assets/our-eyes.jpeg" alt="our-eyes-img" className="about-image" />
+                    <br/>
+                    <h4>Artist Name</h4>
+                    <div className="social-links">
+                        <a href="https://spotify.com" className = "spotify" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faSpotify} size="2x" />
+                        </a>
+                        <a href="https://music.apple.com" className = "apple" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faApple} size="2x" />
+                        </a>
+                        <a href="https://youtube.com" className = "youtube" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                        </a>
+                    </div>    
                 </div>
                 <div className="song">
                     <h1>Song Name</h1>
-                    <img src="/src/assets/another-image.jpeg" alt="another-img" className="about-image" />
-                    <p>Artist Name - Song Description</p>
+                    <img src="/src/assets/our-eyes.jpeg" alt="our-eyes-img" className="about-image" />
+                    <br/>
+                    <h4>Artist Name</h4>
+                    <div className="social-links">
+                        <a href="https://spotify.com" className = "spotify" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faSpotify} size="2x" />
+                        </a>
+                        <a href="https://music.apple.com" className = "apple" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faApple} size="2x" />
+                        </a>
+                        <a href="https://youtube.com" className = "youtube" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                        </a>
+                    </div>    
                 </div>
-                <div className="song">
-                    <h1>Song Name</h1>
-                    <img src="/src/assets/another-image.jpeg" alt="another-img" className="about-image" />
-                    <p>Artist Name - Song Description</p>
-                </div>
+                
                 {/* Add more songs as needed */}
             </div>
         </div>

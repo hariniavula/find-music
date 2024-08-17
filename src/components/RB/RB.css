@@ -1,0 +1,106 @@
+.outer {
+    padding: 50px;
+  }
+  
+  h3 {
+    font-size: 45px;
+    line-height: 1.25;
+  }
+  
+  .song {
+    /* existing styles */
+    background-color: #FFF7EB !important; /* Force the background color */
+  }
+  
+  .song h4{
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between the heading and the paragraph */
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .song {
+    flex: 1 1 calc(10% - 40px); /* Four boxes in a row with some margin */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .song img {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    display: block;
+    border-radius: 10px; /* Optional, for rounded corners */
+  }
+  
+  .song p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    font-size: 10px;
+    color: #333; /* Change this to your desired color */
+  }
+  
+  .social-links a:hover {
+    color: #000; /* Default hover color */
+  }
+  
+  .social-links .spotify:hover {
+    color: #1DB954; /* Change this to your desired hover color for Spotify */
+  }
+  
+  .social-links .youtube:hover {
+    color:#FF0000; /* Change this to your desired hover color for Spotify */
+  }
+  
+  .social-links .apple:hover {
+    color: #f94c57; /* Change this to your desired hover color for Spotify */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .song {
+        flex: 1 1 calc(100% - 40px); /* Stack boxes vertically on small screens */
+    }
+  
+    .song img {
+        height: auto; /* Allow height to adjust to maintain aspect ratio on small screens */
+    }
+  }
+  

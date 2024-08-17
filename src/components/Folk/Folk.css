@@ -3,8 +3,18 @@
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 1.25;
+}
+
+.song {
+  /* existing styles */
+  background-color: #FFF7EB !important; /* Force the background color */
+}
+
+.song h4{
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .title {
@@ -39,8 +49,8 @@ p {
 }
 
 .song h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .song img {
@@ -56,6 +66,33 @@ p {
   font-size: 16px;
   line-height: 1.4;
 }
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 10px;
+  color: #333; /* Change this to your desired color */
+}
+
+.social-links a:hover {
+  color: #000; /* Default hover color */
+}
+
+.social-links .spotify:hover {
+  color: #1DB954; /* Change this to your desired hover color for Spotify */
+}
+
+.social-links .youtube:hover {
+  color:#FF0000; /* Change this to your desired hover color for Spotify */
+}
+
+.social-links .apple:hover {
+  color: #f94c57; /* Change this to your desired hover color for Spotify */
+}
+
 
 @media (max-width: 768px) {
   .song {

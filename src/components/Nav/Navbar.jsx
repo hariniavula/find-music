@@ -24,7 +24,6 @@ const Navbar = () => {
         </div>
       <ul className = {menuOpen ? "open" : ""}>
         <li><NavLink to="/quiz">take our quiz</NavLink></li>
-        <li><NavLink to="/hiphop">hip hop</NavLink></li>
         <li><NavLink to="/folk">folk</NavLink></li>
         <li><NavLink to="/country">country</NavLink></li>
         <li><NavLink to="/rb">r & b</NavLink></li>

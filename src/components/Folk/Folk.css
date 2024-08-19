@@ -5,6 +5,7 @@
 h3 {
   font-size: 45px;
   line-height: 1.25;
+  padding-bottom: 15px;
 }
 
 .song {
@@ -14,7 +15,7 @@ h3 {
 
 .song h4{
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .title {
@@ -36,10 +37,11 @@ p {
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
+
 }
 
 .song {
-  flex: 1 1 calc(10% - 40px); /* Four boxes in a row with some margin */
+  flex: 1 1 calc(25% - 40px); /* Four boxes in a row with some margin */
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
@@ -49,8 +51,9 @@ p {
 }
 
 .song h1 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .song img {
@@ -58,7 +61,9 @@ p {
   height: auto; /* Maintain the aspect ratio */
   object-fit: cover; /* Ensures the image covers the entire area */
   display: block;
-  border-radius: 10px; /* Optional, for rounded corners */
+  border-radius: 10px;
+
+
 }
 
 .song p {

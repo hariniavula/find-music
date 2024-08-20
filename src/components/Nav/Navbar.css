@@ -1,0 +1,105 @@
+/* Navbar.css */
+
+nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+nav .title {
+    font-size: 30px; 
+    color: white;
+    margin: 1rem; 
+    padding-left: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 1rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block; 
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem; 
+    margin: 0 0.5rem; 
+    border-radius: 0.5rem; 
+}
+
+nav ul li a:not(.active):hover {
+    text-decoration: underline;
+    text-underline-offset: 8px; /* Adjust the distance as needed */
+    text-decoration-color: rgb(234, 219, 245);
+
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 8px; /* Adjust the distance as needed */
+    text-decoration-color: rgb(234, 219, 245);
+
+}
+
+nav .menu {
+    display: none;
+    position: absolute; 
+    top: 1.25rem; 
+    right: 0.5rem; 
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem; 
+    height: 2rem; 
+}
+
+nav .menu span {
+    height: 0.4rem; 
+    width: 100%; 
+    background-color: white;
+    border-radius: 0.2rem; 
+}
+
+@media (max-width: 600px){
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 4.75rem; /* Positioning it below the title */
+        right: 0.0rem; /* Positioning it on the right */
+        width: 10rem;
+        height: 40vh; /* Smaller rectangle width */
+        background-color: black;
+        padding: 0.5rem; /* Padding inside the rectangle */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul.open {
+        display: flex;
+       
+    }
+
+    nav ul li{
+        width: 100%; 
+        text-align: center;
+    }
+}
+   

@@ -22,8 +22,8 @@
 }
 
 .about-image {
-  width: 40%;
-  height: auto;
+  width: 30%;
+  height: 10%;
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -131,7 +131,7 @@ button:hover {
   }
 
   .about-image {
-    width: 80%;
+    width: 20%;
   }
 
   .about-text {

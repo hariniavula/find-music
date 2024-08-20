@@ -2,6 +2,18 @@ import React from 'react';
 import './Country.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify, faYoutube, faApple } from '@fortawesome/free-brands-svg-icons';
+import lonelyRoad from "./assets/lonely.jpeg"
+import maxed from "./assets/maxed.jpeg"
+import damaged from "./assets/damaged.png"
+import pack from "./assets/pack.jpg"
+import cozy from "./assets/cozy.jpg"
+import make from "./assets/make.jpeg"
+import lies from "./assets/lies.jpg"
+import lovin from "./assets/lovin.jpeg"
+
+
+
+
 
 
 const Country = () => {
@@ -17,7 +29,7 @@ const Country = () => {
             <div className="boxes">
                 <div className="song">
                     <h1>Lonely Road</h1>
-                    <img src="/src/assets/lonely.jpeg" alt="lonely-img" className="about-image" />
+                    <img src={lonelyRoad} alt="lonely-img" className="about-image" />
                     <br/>
                     <h4>Timmy McKeever</h4>
                     <div className="social-links">
@@ -34,7 +46,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Maxed Out</h1>
-                    <img src="/src/assets/maxed.jpeg" alt="maxed-img" className="about-image" />
+                    <img src={maxed} alt="maxed-img" className="about-image" />
                     <br/>
                     <h4>Bayker Blankenship</h4>
                     <div className="social-links">
@@ -51,7 +63,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Damaged Goods</h1>
-                    <img src="/src/assets/damaged.png" alt="damaged-img" className="about-image" />
+                    <img src={damaged} alt="damaged-img" className="about-image" />
                     <br/>
                     <h4>Shantaia</h4>
                     <div className="social-links">
@@ -68,7 +80,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Pack My Hometown</h1>
-                    <img src="/src/assets/pack.jpg" alt="pack-img" className="about-image" />
+                    <img src={pack} alt="pack-img" className="about-image" />
                     <br/>
                     <h4>Eli Winders</h4>
                     <div className="social-links">
@@ -85,7 +97,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Cozy</h1>
-                    <img src="/src/assets/cozy.jpg" alt="cozy-img" className="about-image" />
+                    <img src={cozy} alt="cozy-img" className="about-image" />
                     <br/>
                     <h4>Braxton Keith</h4>
                     <div className="social-links">
@@ -102,7 +114,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Make You Mine</h1>
-                    <img src="/src/assets/make.jpeg" alt="make-img" className="about-image" />
+                    <img src={make} alt="make-img" className="about-image" />
                     <br/>
                     <h4>MaRynn Taylor</h4>
                     <div className="social-links">
@@ -119,7 +131,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Lies I Tell Myself</h1>
-                    <img src="/src/assets/lies.jpg" alt="lies-img" className="about-image" />
+                    <img src={lies} alt="lies-img" className="about-image" />
                     <br/>
                     <h4>CJ Solar</h4>
                     <div className="social-links">
@@ -136,7 +148,7 @@ const Country = () => {
                 </div>
                 <div className="song">
                     <h1>Lovin' Was Easy</h1>
-                    <img src="/src/assets/lovin.jpeg" alt="lovin-img" className="about-image" />
+                    <img src={lovin} alt="lovin-img" className="about-image" />
                     <br/>
                     <h4>Hannah Adams</h4>
                     <div className="social-links">

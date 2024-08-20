@@ -1,11 +1,13 @@
 import React from 'react';
 import './Home.css';
+import artist from "./assets/music.jpg"
+
 
 const Home = () => {
   return (
     <div className = "entire-home">
     <div id = "title" className="home">
-      <img src="/src/assets/music.jpg" alt="Artist" className="home-image" />
+      <img src={artist} alt="Artist" className="home-image" />
       <div className="home-text">
         <h1>Discover your</h1>
         <h1> next favorite artist </h1>

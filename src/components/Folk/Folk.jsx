@@ -3,17 +3,6 @@ import './Folk.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify, faYoutube, faApple } from '@fortawesome/free-brands-svg-icons';
 
-const Button = ({ link, children }) => {
-    const handleClick = () => {
-        window.location.href = link;
-    };
-
-    return (
-        <button onClick={handleClick}>
-            {children}
-        </button>
-    );
-};
 
 const Folk = () => {
     return (

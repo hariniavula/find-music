@@ -1,20 +1,21 @@
 import React from 'react';
 import './RB.css';
 import unwind from "./assets/unwind.jpeg"
+import different from "./assets/different.png"
+import loseControl from "./assets/lose-control.jpg"
+import tillEnd from "./assets/till.jpg"
+import hen from "./assets/hen.jpeg"
+import speakMorning from "./assets/speak.jpeg"
+import remedy from "./assets/remedy.jpeg"
+import neverKnew from "./assets/never-knew.jpg"
+
+
+
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify, faYoutube, faApple } from '@fortawesome/free-brands-svg-icons';
 
-const Button = ({ link, children }) => {
-    const handleClick = () => {
-        window.location.href = link;
-    };
-
-    return (
-        <button onClick={handleClick}>
-            {children}
-        </button>
-    );
-};
 
 const RB = () => {
     return (
@@ -47,7 +48,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1>Lose Control</h1>
-                    <img src="/src/assets/lose-control.jpg" alt="lose-control-img" className="about-image" />
+                    <img src={loseControl} alt="lose-control-img" className="about-image" />
                     <br/>
                     <h4>Amaria</h4>
                     <div className="social-links">
@@ -64,7 +65,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1>Different</h1>
-                    <img src="/src/assets/different.png" alt="different-img" className="about-image" />
+                    <img src={different} alt="different-img" className="about-image" />
                     <br/>
                     <h4>The Black Diamond & Brekhail</h4>
                     <div className="social-links">
@@ -81,7 +82,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1>till the end of time</h1>
-                    <img src="/src/assets/till.jpg" alt="till-img" className="about-image" />
+                    <img src={tillEnd} alt="till-img" className="about-image" />
                     <br/>
                     <h4>Dani Enli</h4>
                     <div className="social-links">
@@ -98,7 +99,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1>HenDawg </h1>
-                    <img src="/src/assets/hen.jpeg" alt="hen-img" className="about-image" />
+                    <img src={hen} alt="hen-img" className="about-image" />
                     <br/>
                     <h4>ïnnü</h4>
                     <div className="social-links">
@@ -115,7 +116,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1 style={{ fontSize: "16px" }} >can we speak in the morning?</h1>
-                    <img src="/src/assets/speak.jpeg" alt="speak-img" className="about-image" />
+                    <img src={speakMorning} alt="speak-img" className="about-image" />
                     <br/>
                     <h4>BLVCK VIØLET</h4>
                     <div className="social-links">
@@ -132,7 +133,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1>I Found My Remedy.</h1>
-                    <img src="/src/assets/remedy.jpeg" alt="remedy-img" className="about-image" />
+                    <img src={remedy} alt="remedy-img" className="about-image" />
                     <br/>
                     <h4>Mamadou.</h4>
                     <div className="social-links">
@@ -149,7 +150,7 @@ const RB = () => {
                 </div>
                 <div className="song">
                     <h1>Never Knew</h1>
-                    <img src="/src/assets/never-knew.jpg" alt="never-knew-img" className="about-image" />
+                    <img src={neverKnew} alt="never-knew-img" className="about-image" />
                     <br/>
                     <h4>Rovaye</h4>
                     <div className="social-links">

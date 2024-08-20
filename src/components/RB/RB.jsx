@@ -1,5 +1,6 @@
 import React from 'react';
 import './RB.css';
+import unwind from "./assets/unwind.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify, faYoutube, faApple } from '@fortawesome/free-brands-svg-icons';
 
@@ -26,13 +27,14 @@ const RB = () => {
                 <br />
             </div>
             <div className="boxes">
+               
                 <div className="song">
                     <h1>Unwind</h1>
-                    <img src="/src/assets/unwind.jpeg" alt="unwind-img" className="about-image" />
+                    <img src={unwind} alt="unwind-img" className="about-image" />
                     <br/>
                     <h4>Lauryn Kovacs</h4>
                     <div className="social-links">
-                        <a href="https://open.spotify.com/track/3zilW1sbGgg4EcVbs6tt12?autoplay=true" target="_blank" rel="noopener noreferrer">
+                        <a href="https://open.spotify.com/track/3zilW1sbGgg4EcVbs6tt12?autoplay=true" className = "spotify" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faSpotify} size="2x" />
                         </a>
                         <a href="https://music.apple.com/us/album/unwind/1722797496?i=1722797497" className = "apple" target="_blank" rel="noopener noreferrer">

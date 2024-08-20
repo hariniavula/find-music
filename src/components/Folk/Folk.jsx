@@ -2,6 +2,16 @@ import React from 'react';
 import './Folk.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify, faYoutube, faApple } from '@fortawesome/free-brands-svg-icons';
+import ourEyes from "./assets/our-eyes.jpeg"
+import iLoveYou from "./assets/i-love-you.jpg"
+import everything from "./assets/everything-we.jpg"
+import onlyLight from "./assets/only-light.jpeg"
+import miAmor from "./assets/mi-amor.jpg"
+import whatLove from "./assets/what-love.jpg"
+import waiting from "./assets/waiting.jpg"
+import moon from "./assets/blame-moon.png"
+
+
 
 
 const Folk = () => {
@@ -16,7 +26,7 @@ const Folk = () => {
             <div className="boxes">
                 <div className="song">
                     <h1>Our Eyes Met on Friday</h1>
-                    <img src="/src/assets/our-eyes.jpeg" alt="our-eyes-img" className="about-image" />
+                    <img src={ourEyes} alt="our-eyes-img" className="about-image" />
                     <br/>
                     <h4>Kaleb Cohen</h4>
                     <div className="social-links">
@@ -33,7 +43,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>I Love You</h1>
-                    <img src="/src/assets/i-love-you.jpg" alt="i-love-you-img" className="about-image" />
+                    <img src={iLoveYou} alt="i-love-you-img" className="about-image" />
                     <br/>
                     <h4>Spencer Brady</h4>
                     <div className="social-links">
@@ -50,7 +60,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>Everything We Need</h1>
-                    <img src="/src/assets/everything-we.jpg" alt="everything-we-img" className="about-image" />
+                    <img src={everything} alt="everything-we-img" className="about-image" />
                     <br/>
                     <h4>Wilfred</h4>
                     <div className="social-links">
@@ -67,7 +77,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>only light</h1>
-                    <img src="/src/assets/only-light.jpeg" alt="only-light-img" className="about-image" />
+                    <img src={onlyLight} alt="only-light-img" className="about-image" />
                     <br/>
                     <h4>Liv Romano</h4>
                     <div className="social-links">
@@ -84,7 +94,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>mi amor</h1>
-                    <img src="/src/assets/mi-amor.jpg" alt="mi-amor-img" className="about-image" />
+                    <img src={miAmor} alt="mi-amor-img" className="about-image" />
                     <br/>
                     <h4>asiris</h4>
                     <div className="social-links">
@@ -101,7 +111,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>what love feels like</h1>
-                    <img src="/src/assets/what-love.jpg" alt="what-love-img" className="about-image" />
+                    <img src={whatLove} alt="what-love-img" className="about-image" />
                     <br/>
                     <h4>Alan Fiore</h4>
                     <div className="social-links">
@@ -118,7 +128,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>waiting</h1>
-                    <img src="/src/assets/waiting.jpg" alt="waiting-img" className="about-image" />
+                    <img src={waiting} alt="waiting-img" className="about-image" />
                     <br/>
                     <h4>Cassidy Forras</h4>
                     <div className="social-links">
@@ -135,7 +145,7 @@ const Folk = () => {
                 </div>
                 <div className="song">
                     <h1>Blame The Moon</h1>
-                    <img src="/src/assets/blame-moon.png" alt="sidewalk-img" className="about-image" />
+                    <img src={moon} alt="sidewalk-img" className="about-image" />
                     <br/>
                     <h4>Hazlett</h4>
                     <div className="social-links">

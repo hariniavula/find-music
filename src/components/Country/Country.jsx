@@ -33,7 +33,7 @@ const Country = () => {
                     <br/>
                     <h4>Timmy McKeever</h4>
                     <div className="social-links">
-                        <a href="https://open.spotify.com/track/6HwbIAd0HrVfSEUcz2D4pI" target="_blank" rel="noopener noreferrer">
+                        <a href="https://open.spotify.com/track/6HwbIAd0HrVfSEUcz2D4pI"  className = "spotify" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faSpotify} size="2x" />
                         </a>
                         <a href="https://music.apple.com/za/song/lonely-road/1708130543" className = "apple" target="_blank" rel="noopener noreferrer">

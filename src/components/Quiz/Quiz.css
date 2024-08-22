@@ -1,0 +1,122 @@
+/* Quiz.css */
+.quiz-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px; /* Adjust according to your navbar height */
+
+}
+
+.quiz-title p{
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.quiz-title h1{
+    font-size: 40px;
+}
+
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+form {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    text-align: left;
+}
+
+.question label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0; /* Ensure the result message stays at the bottom */
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 100%; /* Ensure it takes up the full width */
+    padding: 6px; /* Add padding to space out elements */
+    font-family: 'Poppins', sans-serif;
+}
+
+.result-link {
+    display: flex;
+    flex-direction: column; /* Stack text and icon vertically */
+    align-items: center; /* Center the content inside the link */
+    justify-content: center; /* Center the content inside the link */
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Ensure text is centered */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: color 0.3s ease; /* Add a transition effect for hover */
+}
+
+.explore-text {
+    margin-bottom: 5px; /* Space between the text and the arrow */
+}
+
+.arrow-icon {
+    font-size: 1.5em; /* Increase the size of the arrow if needed */
+}
+
+.arrow-icon:hover {
+    color: #c6afd4;
+}

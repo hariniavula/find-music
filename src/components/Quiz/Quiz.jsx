@@ -149,7 +149,7 @@ function Quiz() {
         </div>
 
         <div className="question">
-          <p>4. Which of these songs do you most enjoy?</p>
+          <p>3. Which of these artists do you prefer listening to?</p>
           <label>
             <input
               type="radio"
@@ -157,7 +157,7 @@ function Quiz() {
               value="A"
               onChange={handleChange}
             />{' '}
-            A) "Adorn" by Miguel
+            A) SZA, Frank Ocean, Steve Lacy, Bryson Tiller, Brent Faiyaz
           </label>
           <label>
             <input
@@ -166,7 +166,7 @@ function Quiz() {
               value="B"
               onChange={handleChange}
             />{' '}
-            B) "The Times They Are A-Changin'" by Bob Dylan
+            B) Hozier, Kacey Musgraves, The Lumineers, Noah Kahan, Phoebe Bridgers
           </label>
           <label>
             <input
@@ -175,7 +175,7 @@ function Quiz() {
               value="C"
               onChange={handleChange}
             />{' '}
-            C) "Jolene" by Dolly Parton
+            C) Luke Bryan, Megan Moroney, Morgan Wallen, Luke Combs, Tyler Childers
           </label>
         </div>
 

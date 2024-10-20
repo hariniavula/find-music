@@ -3,6 +3,8 @@
 ## About
 This web application is designed to help users discover new music and support small artists. The application features a personalized quiz that matches users with a music genre. The platform provides dedicated pages for various music genres like folk, r & b, country, highlighting smaller, up-and-coming artists who align with users' tastes.
 
+## Video: https://drive.google.com/file/d/1r9trbgSI-eixdFsGGcp8Z5sLiEv6wOcx/view?usp=sharing
+
 ## Features
 - **Personalized Music Quiz**: Interactive quiz to identify users' music preferences.
 - **Genre-Specific Pages**: Dedicated pages for various music genres showcasing lesser-known artists.
